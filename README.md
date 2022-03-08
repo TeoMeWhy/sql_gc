@@ -31,7 +31,6 @@ Nosos objetivo é ajudar as pessoas que estão descobrindo o mundo de dados agor
 |17.03.22 9:00 | COUNT, AVG, MIN, MAX, GROUP BY, ORDER BY||
 |22.03.22 9:00 | JOINS ||
 | 24.03.22 9:00 | SUBQUERIES ||
-- [Setup e requisitos](#setup-e-requisitos)
 | 29.03.22 9:00 | WINDOWS FUNCTIONS ||
 | 31.03.22 9:00 | CREATE TABLE ||
 
