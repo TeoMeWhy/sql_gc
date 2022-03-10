@@ -5,8 +5,9 @@ As lives serão realizadas no canal [Téo Me Why](https://www.twitch.tv/teomewhy
 
 ## Sumário
 - [Sobre o Curso](#sobre-o-curso)
+- [Sobre o Professor](#sobre-o-professor)
 - [Setup e requisitos](#setup-e-requisitos)
-- [Conteúdo](#conteúdo)
+- [Calendário](#calendário)
 - [FAQ](#faq)
 
 ## Sobre o curso
@@ -18,6 +19,16 @@ Os encontros serão às terças e quintas às 09:00AM na [Twitch do Téo Me Why]
 ### Para quem NÃO é este curso
 
 O foco será a realização de consultas em um banco de dados que já possui dados. Não é o objetivo abordar temas que envolvam criação de banco de dados, bem como design e modelagem de arquitetura de dados.
+
+## Sobre o professor
+
+Téo é Bacharel em Estatística e tem Pós Graduação em Data Science & Big Data.É bastante curioso em aprender novas tecnologias e aprimorar seus projetos voltados à Análise de Dados e Modelagem Preditiva.
+
+Tem atuado desde 2014 em grandes empresas, sempre utilizando técnicas Estatísticas e Computacionais para empregar Aprendizado de Máquina em diferentes cenários. Com isso, entende que a principal etapa no ciclo analítico consiste em consultas de dados em bancos relacionais. Além de realizar suas lives na Twitch desde 08.2019.
+
+Hoje, como Head of Data na Gamers Club, gostaria de contribuir ainda mais para a comunidade trazendo dados reais e aplicações com SQL.
+
+Você pode conhecer mais sobre o professor no [linkedin](https://www.linkedin.com/in/teocalvo/).
 
 ## Setup e requisitos
 
@@ -33,7 +44,7 @@ Como vamos utilizar os dados da GC, você precisa baixar estes dados de nossa pa
 
 Temos como objetivo  ajudar pessoas que estão descobrindo o mundo de dados agora. Assim, não é necessário nenhum conhecimento com banco de dados. Embora, experiência com programação possa deixar o aprendizado mais leve.
 
-## Conteúdo
+## Calendário
 
 |Data|Conteúdo|Agenda|VOD|
 |-|-|-|-|
@@ -56,16 +67,16 @@ Não, é só abrir a live no horário da transmissão.
 
 3. Vai ficar gravado?
 
-Sim! Os inscritos no canal da Twitch terão acesso à todos os VODs gerados a partida das lives. Para ser inscrito, basta ter Amazon Prime e assinar nosso canal de forma gratuita ou realizando o pagamento na própria plataforma.
+Sim! Os inscritos no canal da Twitch terão acesso à todos os VODs gerados a parti das lives. Para ser inscrito, basta ter Amazon Prime e assinar nosso canal de forma gratuita ou realizando o pagamento na própria plataforma.
 
 4. Vai para o YouTube?
 
-Não! Queremos prestigiar nossos apoiadores do projeto. Assim, apenas os assinantea da Twitch terão acesso ao conteúdo gravado.
+Não! Queremos prestigiar nossos apoiadores do projeto. Assim, apenas os assinantes da Twitch terão acesso ao conteúdo gravado.
 
 5. Como posso apoiar?
 
 Sua inscrição no canal da Twitch já apoia muito o nosso trabalho. Esta seria uma ótima forma de contribuir.
-Alem da ajuda financeira, sinta-se a vontade para abrir issues no nosso repositório para melhorias no projeto.
+Alem da ajuda financeira, sinta-se a vontade para abrir `issues` no nosso repositório para melhorias no projeto.
 
 6. Posso usar este material em um curso?
 
