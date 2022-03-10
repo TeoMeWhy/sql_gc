@@ -1,13 +1,23 @@
 # SQL do Zero
 Bem vindo ao curso de SQL do Zero utilizando dados de CS:GO da [Gamers Club](https://gamersclub.com.br/).
 
-As lives serão realizadas no canal [Téo Me Why](https://www.twitch.tv/teomewhy), às terças e quintas às 9:00.
+As lives serão realizadas no canal [Téo Me Why](https://www.twitch.tv/teomewhy), às terças e quintas às 9:00AM.
 
 ## Sumário
-
+- [Sobre o Curso](#sobre-o-curso)
 - [Setup e requisitos](#setup-e-requisitos)
 - [Conteúdo](#conteúdo)
 - [FAQ](#faq)
+
+## Sobre o curso
+
+Este é um curso de SQL aberto à toda comunidade e aqueles que desejam realizar seus primeiros passos com a linguagem SQL. Como principal referência deste material, temos o livro [Introdução à Linguagem SQL - Abordagem prática para iniciantes. Nield T.](https://amzn.to/3pS3Bmo)
+
+Os encontros serão às terças e quintas às 09:00AM na [Twitch do Téo Me Why](https://www.twitch.tv/teomewhy).
+
+### Para quem NÃO é este curso
+
+O foco será a realização de consultas em um banco de dados que já possui dados. Não é o objetivo abordar temas que envolvam criação de banco de dados, bem como design e modelagem de arquitetura de dados.
 
 ## Setup e requisitos
 
@@ -21,18 +31,18 @@ Como vamos utilizar os dados da GC, você precisa baixar estes dados de nossa pa
 
 ### 3. Conhecimentos técnicos
 
-Nosos objetivo é ajudar as pessoas que estão descobrindo o mundo de dados agora. Assim, não é necessário nenhum conhecimento com banco de dados. Embora, conhecimentos com programação possa deixar o aprendizado mais leve.
+Temos como objetivo  ajudar pessoas que estão descobrindo o mundo de dados agora. Assim, não é necessário nenhum conhecimento com banco de dados. Embora, experiência com programação possa deixar o aprendizado mais leve.
 
 ## Conteúdo
 
-|Data|Conteúdo|VOD|
-|-|-|-|
-|15.03.22 9:00 | SELECT FROM WHERE, DISTINCT, CASE WHEN||
-|17.03.22 9:00 | COUNT, AVG, MIN, MAX, GROUP BY, ORDER BY||
-|22.03.22 9:00 | JOINS ||
-| 24.03.22 9:00 | SUBQUERIES ||
-| 29.03.22 9:00 | WINDOWS FUNCTIONS ||
-| 31.03.22 9:00 | CREATE TABLE ||
+|Data|Conteúdo|Agenda|VOD|
+|-|-|-|-|
+|15.03.22 9:00 | SELECT FROM WHERE, DISTINCT, CASE WHEN|[link](https://www.twitch.tv/teomewhy/schedule?segmentID=2f908e6b-61c2-46d9-9d01-bbb53feb7bb3)||
+|17.03.22 9:00 | COUNT, AVG, MIN, MAX, GROUP BY, ORDER BY|[link](https://www.twitch.tv/teomewhy/schedule?segmentID=b5b7db80-aeb3-49c7-8458-769510ade8d9)||
+|22.03.22 9:00 | JOINS |[link](https://www.twitch.tv/teomewhy/schedule?segmentID=3c42117d-75e8-43ba-a72e-0539d2027d02)||
+|24.03.22 9:00 | SUBQUERIES |[link](https://www.twitch.tv/teomewhy/schedule?segmentID=058bb5a7-f4f2-4793-8d3b-a0134f42538a)||
+|29.03.22 9:00 | WINDOWS FUNCTIONS |[link](https://www.twitch.tv/teomewhy/schedule?segmentID=46789e74-ad18-4d79-b139-8f436f5bcf83)||
+|31.03.22 9:00 | CREATE TABLE |[link](https://www.twitch.tv/teomewhy/schedule?segmentID=bb8d3e40-864e-4c6c-8b94-a72fcdd280d2)||
 
 ## FAQ
 
@@ -56,3 +66,7 @@ Não! Queremos prestigiar nossos apoiadores do projeto. Assim, apenas os assinan
 
 Sua inscrição no canal da Twitch já apoia muito o nosso trabalho. Esta seria uma ótima forma de contribuir.
 Alem da ajuda financeira, sinta-se a vontade para abrir issues no nosso repositório para melhorias no projeto.
+
+6. Posso usar este material em um curso?
+
+Este material é aberto e pode ser utilizado por outras iniciativas gratuitas na comunidade. É importante que se faça as devidas referências ao utilizar este projeto. **Não se deve utilizar este conteúdo para fins comerciais.**
