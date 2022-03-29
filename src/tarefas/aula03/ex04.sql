@@ -1,15 +1,30 @@
--- Vamos precisar de subquery para resolver essa fita
+select flTribo,
+       avg(txHs) as avgTxHs
 
-SELECT t1.idPlayer,
-       t1.idLobbyGame,
-       t1.qtKill,
-       t1.qtHs,
-       t3.descMedal
+from(
 
-FROM tb_lobby_stats_player as t1
+    select t1.idPlayer,
+            t1.qtKill,
+            t1.qtHs,
+            100.0 * t1.qtHs / t1.qtKill as txHs,
+            COALESCE(t2.flTribo, 0) AS flTribo
 
-LEFT JOIN tb_players_medalha as t2
-ON t1.idPlayer = t2.idPlayer
+    from tb_lobby_stats_player as t1
 
-LEFT JOIN tb_medalha as t3
-ON t2.idMedal = t3.idMedal
+    left join (
+
+        select t1.idPlayer,
+            min(1) as flTribo
+
+        from tb_players_medalha as t1
+
+        where t1.idMedal in (8,37)
+        and t1.flActive = 1
+
+        group by idPlayer
+
+    ) as t2
+    on t1.idPlayer = t2.idPlayer
+)
+
+group by 1

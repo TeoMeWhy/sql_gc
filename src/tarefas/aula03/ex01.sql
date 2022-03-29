@@ -1,22 +1,43 @@
--- PRECISAMOS DE SUBQUERY PARA RESOLVER, NAO VAI SER AGORA
+WITH tb_subs AS (
 
-SELECT t1.idPlayer,
-       t1.idLobbyGame, 
-       t1.flWinner,
-       t2.idMedal,
-       t2.flActive,
-       t3.descMedal,
-       t1.dtCreatedAt,
-       t2.dtCreatedAt,
-       t2.dtRemove
+SELECT idPlayer,
+       case when idMedal = 1 then "Premium" else "Plus" end SubType
 
-FROM tb_lobby_stats_player AS t1
+FROM tb_players_medalha
 
-LEFT JOIN tb_players_medalha AS t2
-ON t1.idPlayer = t2.idPlayer
-AND t2.flActive = 1
+where idMedal in (1, 3)
+and flActive = 1
 
-LEFT JOIN tb_medalha as t3
-on t2.idMedal = t3.idMedal
+group by 1,2
 
-WHERE t3.descMedal in ('Membro Plus', 'Membro Premium')
+),
+
+tb_winrate AS (
+
+    select t1.idPlayer,
+           avg(t1.flWinner)  as winRate
+
+    from tb_lobby_stats_player as t1
+
+    GROUP by t1.idPlayer
+
+),
+
+tb_subs_stats as (
+
+    select t1.*,
+           coalesce(t2.SubType, "Não sub") as SubType
+
+    from tb_winrate as t1
+
+    left join tb_subs as t2
+    on t1.idPlayer = t2.idPlayer
+
+)
+
+select SubType,
+       avg(winRate) as AvgWinRate
+
+from tb_subs_stats
+
+group by subType
