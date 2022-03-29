@@ -66,9 +66,9 @@ Temos como objetivo  ajudar pessoas que estão descobrindo o mundo de dados agor
 |:---:|-|:---:|:---:|
 |15.03.22 9:00AM | SELECT FROM WHERE, DISTINCT, CASE WHEN|[:link:](https://www.twitch.tv/teomewhy/schedule?segmentID=2f908e6b-61c2-46d9-9d01-bbb53feb7bb3)|[:link:](https://www.twitch.tv/videos/1426415137)|
 |17.03.22 9:00AM | COUNT, AVG, MIN, MAX, GROUP BY, ORDER BY|[:link:](https://www.twitch.tv/teomewhy/schedule?segmentID=b5b7db80-aeb3-49c7-8458-769510ade8d9)| [:link:](https://www.twitch.tv/videos/1428367386) |
-|22.03.22 9:00AM | JOINS |[:link:](https://www.twitch.tv/teomewhy/schedule?segmentID=3c42117d-75e8-43ba-a72e-0539d2027d02)||
-|24.03.22 9:00AM | SUBQUERIES |[:link:](https://www.twitch.tv/teomewhy/schedule?segmentID=058bb5a7-f4f2-4793-8d3b-a0134f42538a)||
-|29.03.22 9:00AM | WINDOWS FUNCTIONS |[:link:](https://www.twitch.tv/teomewhy/schedule?segmentID=46789e74-ad18-4d79-b139-8f436f5bcf83)||
+|22.03.22 9:00AM | JOINS |[:link:](https://www.twitch.tv/teomewhy/schedule?segmentID=3c42117d-75e8-43ba-a72e-0539d2027d02)|[:link:](https://www.twitch.tv/videos/1433520544)|
+|24.03.22 9:00AM | Resolução de Exercícios (JOINS) |[:link:](https://www.twitch.tv/teomewhy/schedule?segmentID=058bb5a7-f4f2-4793-8d3b-a0134f42538a)|[:link:](https://www.twitch.tv/videos/1440197492)|
+|29.03.22 9:00AM | SUBQUERIES & WINDOWS FUNCTIONS |[:link:](https://www.twitch.tv/teomewhy/schedule?segmentID=46789e74-ad18-4d79-b139-8f436f5bcf83)|[:link:](https://www.twitch.tv/videos/1440199696)|
 |31.03.22 9:00AM | CREATE TABLE |[:link:](https://www.twitch.tv/teomewhy/schedule?segmentID=bb8d3e40-864e-4c6c-8b94-a72fcdd280d2)||
 
 ## FAQ
