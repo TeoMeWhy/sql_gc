@@ -54,7 +54,7 @@ Para acompanhar este curso você precisará instalar o [Visual Studio Code](http
 
 ### 2. Dados
 
-Como vamos utilizar os dados da GC, você precisa baixar estes dados de nossa pasta no [google drive](https://drive.google.com/file/d/1TfGfhwm7tnfaQnAKDNSEezggYemDxdUR/view?usp=sharing).
+Como vamos utilizar os dados da GC, você precisa baixar estes dados de nossa pasta no [google drive](https://drive.google.com/file/d/1JwV2q_NEEPkacCixgM0MXIxe4z-Sdigk/view?usp=sharing).
 
 ### 3. Conhecimentos técnicos
 
